@@ -1,0 +1,4 @@
+﻿src/screens/anc/AddANCScreen.tsx(34,25): error TS2540: Cannot assign to 'syncStatus' because it is a read-only property.
+src/screens/registry/AddFamilyScreen.tsx(26,28): error TS2540: Cannot assign to 'syncStatus' because it is a read-only property.
+src/screens/registry/AddPatientScreen.tsx(31,29): error TS2540: Cannot assign to 'syncStatus' because it is a read-only property.
+src/screens/vaccination/AddVaccinationScreen.tsx(26,25): error TS2540: Cannot assign to 'syncStatus' because it is a read-only property.

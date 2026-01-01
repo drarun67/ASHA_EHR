@@ -1,0 +1,83 @@
+﻿src/db/database.ts(31,13): error TS2322: Type 'typeof Patient' is not assignable to type 'Model | Class<Model>'.
+  Types of construct signatures are incompatible.
+    Type 'new (collection: Collection<Model>, raw: _RawRecord) => Patient' is not assignable to type 'new (...args: any[]) => Model'.
+      Construct signature return types 'Patient' and 'Model' are incompatible.
+        The types of 'syncStatus' are incompatible between these types.
+          Type 'string' is not assignable to type 'SyncStatus'.
+src/db/database.ts(32,13): error TS2322: Type 'typeof Visit' is not assignable to type 'Model | Class<Model>'.
+  Types of construct signatures are incompatible.
+    Type 'new (collection: Collection<Model>, raw: _RawRecord) => Visit' is not assignable to type 'new (...args: any[]) => Model'.
+      Construct signature return types 'Visit' and 'Model' are incompatible.
+        The types of 'syncStatus' are incompatible between these types.
+          Type 'string' is not assignable to type 'SyncStatus'.
+src/db/database.ts(33,13): error TS2322: Type 'typeof Family' is not assignable to type 'Model | Class<Model>'.
+  Types of construct signatures are incompatible.
+    Type 'new (collection: Collection<Model>, raw: _RawRecord) => Family' is not assignable to type 'new (...args: any[]) => Model'.
+      Construct signature return types 'Family' and 'Model' are incompatible.
+        The types of 'syncStatus' are incompatible between these types.
+          Type 'string' is not assignable to type 'SyncStatus'.
+src/db/database.ts(34,13): error TS2322: Type 'typeof ANCRecord' is not assignable to type 'Model | Class<Model>'.
+  Types of construct signatures are incompatible.
+    Type 'new (collection: Collection<Model>, raw: _RawRecord) => ANCRecord' is not assignable to type 'new (...args: any[]) => Model'.
+      Construct signature return types 'ANCRecord' and 'Model' are incompatible.
+        The types of 'syncStatus' are incompatible between these types.
+          Type 'string' is not assignable to type 'SyncStatus'.
+src/db/database.ts(35,13): error TS2322: Type 'typeof VaccinationRecord' is not assignable to type 'Model | Class<Model>'.
+  Types of construct signatures are incompatible.
+    Type 'new (collection: Collection<Model>, raw: _RawRecord) => VaccinationRecord' is not assignable to type 'new (...args: any[]) => Model'.
+      Construct signature return types 'VaccinationRecord' and 'Model' are incompatible.
+        The types of 'syncStatus' are incompatible between these types.
+          Type 'string' is not assignable to type 'SyncStatus'.
+src/db/database.ts(36,13): error TS2322: Type 'typeof SyncQueue' is not assignable to type 'Model | Class<Model>'.
+  Types of construct signatures are incompatible.
+    Type 'new (collection: Collection<Model>, raw: _RawRecord) => SyncQueue' is not assignable to type 'new (...args: any[]) => Model'.
+      Construct signature return types 'SyncQueue' and 'Model' are incompatible.
+        The types of 'syncStatus' are incompatible between these types.
+          Type '"pending" | "syncing" | "failed"' is not assignable to type 'SyncStatus'.
+            Type '"pending"' is not assignable to type 'SyncStatus'.
+src/models/ANCRecord.ts(12,26): error TS2416: Property 'syncStatus' in type 'ANCRecord' is not assignable to the same property in base type 'Model'.
+  Type 'string' is not assignable to type 'SyncStatus'.
+src/models/ANCRecord.ts(12,26): error TS2610: 'syncStatus' is defined as an accessor in class 'Model', but is overridden here in 'ANCRecord' as an instance property.
+src/models/Family.ts(11,27): error TS2416: Property 'syncStatus' in type 'Family' is not assignable to the same property in base type 'Model'.
+  Type 'string' is not assignable to type 'SyncStatus'.
+src/models/Family.ts(11,27): error TS2610: 'syncStatus' is defined as an accessor in class 'Model', but is overridden here in 'Family' as an instance property.
+src/models/Patient.ts(14,27): error TS2416: Property 'syncStatus' in type 'Patient' is not assignable to the same property in base type 'Model'.
+  Type 'string' is not assignable to type 'SyncStatus'.
+src/models/Patient.ts(14,27): error TS2610: 'syncStatus' is defined as an accessor in class 'Model', but is overridden here in 'Patient' as an instance property.
+src/models/SyncQueue.ts(11,27): error TS2416: Property 'syncStatus' in type 'SyncQueue' is not assignable to the same property in base type 'Model'.
+  Type '"pending" | "syncing" | "failed"' is not assignable to type 'SyncStatus'.
+    Type '"pending"' is not assignable to type 'SyncStatus'.
+src/models/SyncQueue.ts(11,27): error TS2610: 'syncStatus' is defined as an accessor in class 'Model', but is overridden here in 'SyncQueue' as an instance property.
+src/models/VaccinationRecord.ts(11,26): error TS2416: Property 'syncStatus' in type 'VaccinationRecord' is not assignable to the same property in base type 'Model'.
+  Type 'string' is not assignable to type 'SyncStatus'.
+src/models/VaccinationRecord.ts(11,26): error TS2610: 'syncStatus' is defined as an accessor in class 'Model', but is overridden here in 'VaccinationRecord' as an instance property.
+src/models/Visit.ts(12,27): error TS2416: Property 'syncStatus' in type 'Visit' is not assignable to the same property in base type 'Model'.
+  Type 'string' is not assignable to type 'SyncStatus'.
+src/models/Visit.ts(12,27): error TS2610: 'syncStatus' is defined as an accessor in class 'Model', but is overridden here in 'Visit' as an instance property.
+src/screens/anc/AddANCScreen.tsx(28,36): error TS2344: Type 'ANCRecord' does not satisfy the constraint 'Model'.
+  Types of property 'syncStatus' are incompatible.
+    Type 'string' is not assignable to type 'SyncStatus'.
+src/screens/management/DashboardScreen.tsx(3,19): error TS2307: Cannot find module 'axios' or its corresponding type declarations.
+src/screens/registry/AddFamilyScreen.tsx(21,36): error TS2344: Type 'Family' does not satisfy the constraint 'Model'.
+  Types of property 'syncStatus' are incompatible.
+    Type 'string' is not assignable to type 'SyncStatus'.
+src/screens/registry/AddPatientScreen.tsx(24,36): error TS2344: Type 'Patient' does not satisfy the constraint 'Model'.
+  Types of property 'syncStatus' are incompatible.
+    Type 'string' is not assignable to type 'SyncStatus'.
+src/screens/registry/FamilyListScreen.tsx(12,51): error TS2344: Type 'Family' does not satisfy the constraint 'Model'.
+  Types of property 'syncStatus' are incompatible.
+    Type 'string' is not assignable to type 'SyncStatus'.
+src/screens/registry/PatientListScreen.tsx(14,52): error TS2344: Type 'Patient' does not satisfy the constraint 'Model'.
+  Types of property 'syncStatus' are incompatible.
+    Type 'string' is not assignable to type 'SyncStatus'.
+src/screens/vaccination/AddVaccinationScreen.tsx(21,36): error TS2344: Type 'VaccinationRecord' does not satisfy the constraint 'Model'.
+  Types of property 'syncStatus' are incompatible.
+    Type 'string' is not assignable to type 'SyncStatus'.
+src/services/encryptionService.ts(2,21): error TS2307: Cannot find module '@react-native-community/netinfo' or its corresponding type declarations.
+src/services/IncentiveService.ts(1,10): error TS2305: Module '"../db/database"' has no exported member 'database'.
+src/services/SyncService.ts(1,10): error TS2305: Module '"../db/database"' has no exported member 'database'.
+src/services/SyncService.ts(2,21): error TS2307: Cannot find module '@react-native-community/netinfo' or its corresponding type declarations.
+src/services/SyncService.ts(6,19): error TS2307: Cannot find module 'axios' or its corresponding type declarations.
+src/services/SyncService.ts(20,42): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/services/VoiceAssistantService.ts(1,43): error TS2307: Cannot find module '@react-native-voice/voice' or its corresponding type declarations.
+src/services/VoiceAssistantService.ts(33,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
