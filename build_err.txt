@@ -1,0 +1,309 @@
+﻿Compiling lib\main.dart for the Web...                          
+D:\flutter\flutter\b
+in\flutter.bat : 
+Wasm dry run 
+findings:
+At line:1 char:1
++ D:\flutter\flutter
+\bin\flutter.bat 
+build web 2>&1 | 
+Out-File -FilePat 
+...
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (Wasm   
+  dry run findin    
+gs::String) [],     
+RemoteExceptio    n
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+Found 
+incompatibilities 
+with WebAssembly.
+
+package:speech_to_te
+xt/speech_to_text_we
+b.dart 3:1 - 
+dart:html 
+unsupported (0)
+package:connectivity
+_plus/src/web/dart_h
+tml_connectivity_plu
+gin.dart 2:1 - 
+dart:html 
+unsupported (0)
+package:speech_to_te
+xt/speech_to_text_we
+b.dart 4:1 - JS 
+interop library 
+'dart:js_util' 
+can't be imported 
+when compiling to 
+Wasm. (2)
+
+Consider addressing 
+these issues to 
+enable wasm builds. 
+See docs for more 
+info: https://docs.f
+lutter.dev/platform-
+integration/web/wasm
+
+Use 
+--no-wasm-dry-run 
+to disable these 
+warnings.
+Target dart2js 
+failed: 
+ProcessException: 
+Process exited 
+abnormally with 
+exit code 1:
+lib/ui/screens/workf
+orce/incentive_dashb
+oard_screen.dart:98:
+17:
+Error: Not a 
+constant expression.
+                _bui
+ldStep(Icons.account
+_balance, 'Paid', 
+false),
+                
+^^^^^^^^^^
+lib/ui/screens/workf
+orce/incentive_dashb
+oard_screen.dart:97:
+17:
+Error: Not a 
+constant expression.
+                _bui
+ldStep(Icons.timer, 
+'Processing', 
+false),
+                
+^^^^^^^^^^
+lib/ui/screens/workf
+orce/incentive_dashb
+oard_screen.dart:96:
+17:
+Error: Not a 
+constant expression.
+                _bui
+ldStep(Icons.check_c
+ircle, 'Approved', 
+true),
+                
+^^^^^^^^^^
+lib/ui/screens/workf
+orce/incentive_dashb
+oard_screen.dart:95:
+17:
+Error: Not a 
+constant expression.
+                _bui
+ldStep(Icons.check_c
+ircle, 
+'Calculated', true),
+                
+^^^^^^^^^^
+Error: Compilation 
+failed.
+  Command: D:\flutte
+r\flutter\bin\cache\
+dart-sdk\bin\dart.ex
+e compile js --platf
+orm-binaries=D:\flut
+ter\flutter\bin\cach
+e\flutter_web_sdk\ke
+rnel --invoker=flutt
+er_tool -Ddart.vm.pr
+oduct=true -DFLUTTER
+_VERSION=3.38.5 -DFL
+UTTER_CHANNEL=stable
+ -DFLUTTER_GIT_URL=h
+ttps://github.com/fl
+utter/flutter.git -D
+FLUTTER_FRAMEWORK_RE
+VISION=f6ff1529fd -D
+FLUTTER_ENGINE_REVIS
+ION=1527ae0ec5 -DFLU
+TTER_DART_VERSION=3.
+10.4 -DFLUTTER_WEB_U
+SE_SKIA=true -DFLUTT
+ER_WEB_USE_SKWASM=fa
+lse -DFLUTTER_WEB_CA
+NVASKIT_URL=https://
+www.gstatic.com/flut
+ter-canvaskit/1527ae
+0ec577a4ef50e65f6fef
+cfc1326707d9bf/ --na
+tive-null-assertions
+ --no-source-maps 
+-O4 --minify -o D:\A
+SHA_EHR\.dart_tool\f
+lutter_build\91c4fd7
+a46703c64a8369d84eb3
+780c3\app.dill --pac
+kages=D:\ASHA_EHR\.d
+art_tool\package_con
+fig.json --cfe-only 
+D:\ASHA_EHR\.dart_to
+ol\flutter_build\91c
+4fd7a46703c64a8369d8
+4eb3780c3\main.dart
+#0      RunResult.th
+rowException (packag
+e:flutter_tools/src/
+base/process.dart:15
+3:5)
+#1      _DefaultProc
+essUtils.run (packag
+e:flutter_tools/src/
+base/process.dart:37
+9:19)
+<asynchronous 
+suspension>
+#2      
+Dart2JSTarget.build 
+(package:flutter_too
+ls/src/build_system/
+targets/web.dart:207
+:5)
+<asynchronous 
+suspension>
+#3      _BuildInstan
+ce._invokeInternal (
+package:flutter_tool
+s/src/build_system/b
+uild_system.dart:895
+:9)
+<asynchronous 
+suspension>
+#4      Future.wait.
+<anonymous closure> 
+(dart:async/future.d
+art:546:21)
+<asynchronous 
+suspension>
+#5      _BuildInstan
+ce.invokeTarget (pac
+kage:flutter_tools/s
+rc/build_system/buil
+d_system.dart:833:32
+)
+<asynchronous 
+suspension>
+#6      Future.wait.
+<anonymous closure> 
+(dart:async/future.d
+art:546:21)
+<asynchronous 
+suspension>
+#7      _BuildInstan
+ce.invokeTarget (pac
+kage:flutter_tools/s
+rc/build_system/buil
+d_system.dart:833:32
+)
+<asynchronous 
+suspension>
+#8      FlutterBuild
+System.build (packag
+e:flutter_tools/src/
+build_system/build_s
+ystem.dart:653:16)
+<asynchronous 
+suspension>
+#9      
+WebBuilder.buildWeb 
+(package:flutter_too
+ls/src/web/compile.d
+art:94:34)
+<asynchronous 
+suspension>
+#10     BuildWebComm
+and.runCommand (pack
+age:flutter_tools/sr
+c/commands/build_web
+.dart:296:5)
+<asynchronous 
+suspension>
+#11     FlutterComma
+nd.run.<anonymous 
+closure> (package:fl
+utter_tools/src/runn
+er/flutter_command.d
+art:1559:27)
+<asynchronous 
+suspension>
+#12     AppContext.r
+un.<anonymous 
+closure> (package:fl
+utter_tools/src/base
+/context.dart:154:19
+)
+<asynchronous 
+suspension>
+#13     CommandRunne
+r.runCommand (packag
+e:args/command_runne
+r.dart:212:13)
+<asynchronous 
+suspension>
+#14     FlutterComma
+ndRunner.runCommand.
+<anonymous closure> 
+(package:flutter_too
+ls/src/runner/flutte
+r_command_runner.dar
+t:487:9)
+<asynchronous 
+suspension>
+#15     AppContext.r
+un.<anonymous 
+closure> (package:fl
+utter_tools/src/base
+/context.dart:154:19
+)
+<asynchronous 
+suspension>
+#16     FlutterComma
+ndRunner.runCommand 
+(package:flutter_too
+ls/src/runner/flutte
+r_command_runner.dar
+t:422:5)
+<asynchronous 
+suspension>
+#17     
+run.<anonymous 
+closure>.<anonymous 
+closure> (package:fl
+utter_tools/runner.d
+art:104:11)
+<asynchronous 
+suspension>
+#18     AppContext.r
+un.<anonymous 
+closure> (package:fl
+utter_tools/src/base
+/context.dart:154:19
+)
+<asynchronous 
+suspension>
+#19     main (packag
+e:flutter_tools/exec
+utable.dart:103:3)
+<asynchronous 
+suspension>
+
+Compiling lib\main.dart for the Web...                             22.6s
+Error: Failed to 
+compile application 
+for the Web.

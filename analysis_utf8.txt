@@ -1,0 +1,102 @@
+﻿Analyzing ASHA_EHR...                                           
+
+warning - The include file 'package:flutter_lints/flutter.yaml' in 'D:\ASHA_EHR\analysis_options.yaml' can't be found when analyzing 'D:\ASHA_EHR' - analysis_options.yaml:10:10 - include_file_not_found
+warning - The value of the field '_patientBox' isn't used - lib\core\storage\storage_service.dart:10:12 - unused_field
+warning - The value of the field '_logBox' isn't used - lib\core\storage\storage_service.dart:11:12 - unused_field
+warning - The value of the field '_settingsBox' isn't used - lib\core\storage\storage_service.dart:12:12 - unused_field
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\theme\app_theme.dart:20:16 - argument_type_not_assignable
+  error - The method 'jsonEncode' isn't defined for the type 'PatientRepository' - lib\data\repositories\patient_repository.dart:43:54 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/analytics/dashboard_stats.g.dart' - lib\models\analytics\dashboard_stats.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$PHCStatsFromJson' isn't defined for the type 'PHCStats' - lib\models\analytics\dashboard_stats.dart:21:59 - undefined_method
+  error - The method '_$PHCStatsToJson' isn't defined for the type 'PHCStats' - lib\models\analytics\dashboard_stats.dart:22:36 - undefined_method
+  error - The method '_$AshaMetricFromJson' isn't defined for the type 'AshaMetric' - lib\models\analytics\dashboard_stats.dart:45:61 - undefined_method
+  error - The method '_$AshaMetricToJson' isn't defined for the type 'AshaMetric' - lib\models\analytics\dashboard_stats.dart:46:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/analytics/feedback_model.g.dart' - lib\models\analytics\feedback_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$AchievementMetricFromJson' isn't defined for the type 'AchievementMetric' - lib\models\analytics\feedback_model.dart:21:68 - undefined_method
+  error - The method '_$AchievementMetricToJson' isn't defined for the type 'AchievementMetric' - lib\models\analytics\feedback_model.dart:22:36 - undefined_method
+  error - The method '_$MprSummaryFromJson' isn't defined for the type 'MprSummary' - lib\models\analytics\feedback_model.dart:39:61 - undefined_method
+  error - The method '_$MprSummaryToJson' isn't defined for the type 'MprSummary' - lib\models\analytics\feedback_model.dart:40:36 - undefined_method
+  error - The method '_$SelfAssessmentFromJson' isn't defined for the type 'SelfAssessment' - lib\models\analytics\feedback_model.dart:57:65 - undefined_method
+  error - The method '_$SelfAssessmentToJson' isn't defined for the type 'SelfAssessment' - lib\models\analytics\feedback_model.dart:58:36 - undefined_method
+  error - The method '_$AssessmentItemFromJson' isn't defined for the type 'AssessmentItem' - lib\models\analytics\feedback_model.dart:71:65 - undefined_method
+  error - The method '_$AssessmentItemToJson' isn't defined for the type 'AssessmentItem' - lib\models\analytics\feedback_model.dart:72:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/clinical/anc_model.g.dart' - lib\models\clinical\anc_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$AncVisitFromJson' isn't defined for the type 'AncVisit' - lib\models\clinical\anc_model.dart:37:59 - undefined_method
+  error - The method '_$AncVisitToJson' isn't defined for the type 'AncVisit' - lib\models\clinical\anc_model.dart:38:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/fhir/fhir_patient.g.dart' - lib\models\fhir\fhir_patient.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$FhirPatientFromJson' isn't defined for the type 'FhirPatient' - lib\models\fhir\fhir_patient.dart:25:62 - undefined_method
+  error - The method '_$FhirPatientToJson' isn't defined for the type 'FhirPatient' - lib\models\fhir\fhir_patient.dart:26:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/community_model.g.dart' - lib\models\workforce\community_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$VhndEventFromJson' isn't defined for the type 'VhndEvent' - lib\models\workforce\community_model.dart:23:60 - undefined_method
+  error - The method '_$VhndEventToJson' isn't defined for the type 'VhndEvent' - lib\models\workforce\community_model.dart:24:36 - undefined_method
+  error - The method '_$VhsncMeetingFromJson' isn't defined for the type 'VhsncMeeting' - lib\models\workforce\community_model.dart:45:63 - undefined_method
+  error - The method '_$VhsncMeetingToJson' isn't defined for the type 'VhsncMeeting' - lib\models\workforce\community_model.dart:46:36 - undefined_method
+  error - The method '_$TrustIndicatorFromJson' isn't defined for the type 'TrustIndicator' - lib\models\workforce\community_model.dart:63:65 - undefined_method
+  error - The method '_$TrustIndicatorToJson' isn't defined for the type 'TrustIndicator' - lib\models\workforce\community_model.dart:64:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/governance_model.g.dart' - lib\models\workforce\governance_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$HealthPolicyFromJson' isn't defined for the type 'HealthPolicy' - lib\models\workforce\governance_model.dart:23:63 - undefined_method
+  error - The method '_$HealthPolicyToJson' isn't defined for the type 'HealthPolicy' - lib\models\workforce\governance_model.dart:24:36 - undefined_method
+  error - The method '_$GrievanceReportFromJson' isn't defined for the type 'GrievanceReport' - lib\models\workforce\governance_model.dart:47:66 - undefined_method
+  error - The method '_$GrievanceReportToJson' isn't defined for the type 'GrievanceReport' - lib\models\workforce\governance_model.dart:48:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/iec_content.g.dart' - lib\models\workforce\iec_content.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$IecTopicFromJson' isn't defined for the type 'IecTopic' - lib\models\workforce\iec_content.dart:28:59 - undefined_method
+  error - The method '_$IecTopicToJson' isn't defined for the type 'IecTopic' - lib\models\workforce\iec_content.dart:29:36 - undefined_method
+  error - The method '_$IecMediaFromJson' isn't defined for the type 'IecMedia' - lib\models\workforce\iec_content.dart:50:59 - undefined_method
+  error - The method '_$IecMediaToJson' isn't defined for the type 'IecMedia' - lib\models\workforce\iec_content.dart:51:36 - undefined_method
+  error - The method '_$JobAidFromJson' isn't defined for the type 'JobAid' - lib\models\workforce\iec_content.dart:68:57 - undefined_method
+  error - The method '_$JobAidToJson' isn't defined for the type 'JobAid' - lib\models\workforce\iec_content.dart:69:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/incentive_model.g.dart' - lib\models\workforce\incentive_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$IncentiveActivityFromJson' isn't defined for the type 'IncentiveActivity' - lib\models\workforce\incentive_model.dart:31:68 - undefined_method
+  error - The method '_$IncentiveActivityToJson' isn't defined for the type 'IncentiveActivity' - lib\models\workforce\incentive_model.dart:32:36 - undefined_method
+  error - The method '_$PaymentRecordFromJson' isn't defined for the type 'PaymentRecord' - lib\models\workforce\incentive_model.dart:53:64 - undefined_method
+  error - The method '_$PaymentRecordToJson' isn't defined for the type 'PaymentRecord' - lib\models\workforce\incentive_model.dart:54:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/readiness_model.g.dart' - lib\models\workforce\readiness_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$DiagnosticCheckFromJson' isn't defined for the type 'DiagnosticCheck' - lib\models\workforce\readiness_model.dart:19:66 - undefined_method
+  error - The method '_$DiagnosticCheckToJson' isn't defined for the type 'DiagnosticCheck' - lib\models\workforce\readiness_model.dart:20:36 - undefined_method
+  error - The method '_$PilotMetricFromJson' isn't defined for the type 'PilotMetric' - lib\models\workforce\readiness_model.dart:37:62 - undefined_method
+  error - The method '_$PilotMetricToJson' isn't defined for the type 'PilotMetric' - lib\models\workforce\readiness_model.dart:38:36 - undefined_method
+  error - The method '_$ScaleUpMetricFromJson' isn't defined for the type 'ScaleUpMetric' - lib\models\workforce\readiness_model.dart:55:64 - undefined_method
+  error - The method '_$ScaleUpMetricToJson' isn't defined for the type 'ScaleUpMetric' - lib\models\workforce\readiness_model.dart:56:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/recognition_model.g.dart' - lib\models\workforce\recognition_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$AchievementFromJson' isn't defined for the type 'Achievement' - lib\models\workforce\recognition_model.dart:23:62 - undefined_method
+  error - The method '_$AchievementToJson' isn't defined for the type 'Achievement' - lib\models\workforce\recognition_model.dart:24:36 - undefined_method
+  error - The method '_$DigitalIDFromJson' isn't defined for the type 'DigitalID' - lib\models\workforce\recognition_model.dart:47:60 - undefined_method
+  error - The method '_$DigitalIDToJson' isn't defined for the type 'DigitalID' - lib\models\workforce\recognition_model.dart:48:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/safety_model.g.dart' - lib\models\workforce\safety_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$SafetyIncidentFromJson' isn't defined for the type 'SafetyIncident' - lib\models\workforce\safety_model.dart:25:65 - undefined_method
+  error - The method '_$SafetyIncidentToJson' isn't defined for the type 'SafetyIncident' - lib\models\workforce\safety_model.dart:26:36 - undefined_method
+  error - The method '_$TravelLogFromJson' isn't defined for the type 'TravelLog' - lib\models\workforce\safety_model.dart:47:60 - undefined_method
+  error - The method '_$TravelLogToJson' isn't defined for the type 'TravelLog' - lib\models\workforce\safety_model.dart:48:36 - undefined_method
+  error - The method '_$TravelWaypointFromJson' isn't defined for the type 'TravelWaypoint' - lib\models\workforce\safety_model.dart:63:65 - undefined_method
+  error - The method '_$TravelWaypointToJson' isn't defined for the type 'TravelWaypoint' - lib\models\workforce\safety_model.dart:64:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/supervision_model.g.dart' - lib\models\workforce\supervision_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$SupervisionVisitFromJson' isn't defined for the type 'SupervisionVisit' - lib\models\workforce\supervision_model.dart:23:67 - undefined_method
+  error - The method '_$SupervisionVisitToJson' isn't defined for the type 'SupervisionVisit' - lib\models\workforce\supervision_model.dart:24:36 - undefined_method
+  error - The method '_$ChecklistItemFromJson' isn't defined for the type 'ChecklistItem' - lib\models\workforce\supervision_model.dart:39:64 - undefined_method
+  error - The method '_$ChecklistItemToJson' isn't defined for the type 'ChecklistItem' - lib\models\workforce\supervision_model.dart:40:36 - undefined_method
+  error - The method '_$SupervisoryFeedbackFromJson' isn't defined for the type 'SupervisoryFeedback' - lib\models\workforce\supervision_model.dart:57:70 - undefined_method
+  error - The method '_$SupervisoryFeedbackToJson' isn't defined for the type 'SupervisoryFeedback' - lib\models\workforce\supervision_model.dart:58:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/training_model.g.dart' - lib\models\workforce\training_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$TrainingCourseFromJson' isn't defined for the type 'TrainingCourse' - lib\models\workforce\training_model.dart:23:65 - undefined_method
+  error - The method '_$TrainingCourseToJson' isn't defined for the type 'TrainingCourse' - lib\models\workforce\training_model.dart:24:36 - undefined_method
+  error - The method '_$CourseModuleFromJson' isn't defined for the type 'CourseModule' - lib\models\workforce\training_model.dart:43:63 - undefined_method
+  error - The method '_$CourseModuleToJson' isn't defined for the type 'CourseModule' - lib\models\workforce\training_model.dart:44:36 - undefined_method
+  error - The method '_$SkillBadgeFromJson' isn't defined for the type 'SkillBadge' - lib\models\workforce\training_model.dart:63:61 - undefined_method
+  error - The method '_$SkillBadgeToJson' isn't defined for the type 'SkillBadge' - lib\models\workforce\training_model.dart:64:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/wellbeing_model.g.dart' - lib\models\workforce\wellbeing_model.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$WellbeingAssessmentFromJson' isn't defined for the type 'WellbeingAssessment' - lib\models\workforce\wellbeing_model.dart:21:70 - undefined_method
+  error - The method '_$WellbeingAssessmentToJson' isn't defined for the type 'WellbeingAssessment' - lib\models\workforce\wellbeing_model.dart:22:36 - undefined_method
+  error - The method '_$SupportResourceFromJson' isn't defined for the type 'SupportResource' - lib\models\workforce\wellbeing_model.dart:41:66 - undefined_method
+  error - The method '_$SupportResourceToJson' isn't defined for the type 'SupportResource' - lib\models\workforce\wellbeing_model.dart:42:36 - undefined_method
+  error - Target of URI hasn't been generated: 'package:asha_ehr_companion/models/workforce/work_task.g.dart' - lib\models\workforce\work_task.dart:3:6 - uri_has_not_been_generated
+  error - The method '_$WorkTaskFromJson' isn't defined for the type 'WorkTask' - lib\models\workforce\work_task.dart:33:59 - undefined_method
+  error - The method '_$WorkTaskToJson' isn't defined for the type 'WorkTask' - lib\models\workforce\work_task.dart:34:36 - undefined_method
+warning - Unused import: '../../../models/workforce/incentive_model.dart' - lib\ui\screens\workforce\incentive_dashboard_screen.dart:2:8 - unused_import
+warning - Unused import: '../../../services/incentive_calculator.dart' - lib\ui\screens\workforce\incentive_dashboard_screen.dart:3:8 - unused_import
+  error - Methods can't be invoked in constant expressions - lib\ui\screens\workforce\incentive_dashboard_screen.dart:95:17 - const_eval_method_invocation
+  error - Target of URI doesn't exist: 'package:qr_flutter/qr_flutter.dart' - lib\ui\screens\workforce\recognition_screen.dart:2:8 - uri_does_not_exist
+  error - The method 'QrImageView' isn't defined for the type '_RecognitionScreenState' - lib\ui\screens\workforce\recognition_screen.dart:81:22 - undefined_method
+  error - Undefined name 'Qr' - lib\ui\screens\workforce\recognition_screen.dart:83:26 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\workforce\safety_screen.dart:99:59 - deprecated_member_use
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
